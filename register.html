@@ -1,0 +1,67 @@
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+		<script language="JavaScript" >
+
+function myFunction()
+{
+
+alert("You have been registered successfully. Kindly make your presence on the event day.");
+window.location.href = "index.html";
+var xmlhttp;
+xmlhttp = new XMLHttpRequest();
+xmlhttp.open("GET","insert.php?nm="+document.getElementById("name").value+"&cn="+document.getElementById("mail").value+"&cv="+document.getElementById("college_name").value+"&cn="+document.getElementById("male").value+"&name1="+document.getElementById("appit").value+"&quantity="+document.getElementById("treasurehunt").value,false);
+xmlhttp.send(null);
+
+}
+</script>
+
+    </head>
+    <body>
+
+      <form action="index.html" method="get">
+      
+        <h1>Registration</h1>
+        
+        <fieldset>
+          <legend><span class="number">1</span>Your basic info</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name">
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email">
+          
+          <label for="college_name">College Name:</label>
+          <input type="text" id="college_name" name="user_college_name">
+          
+          <label>Gender:</label>
+          <input type="radio" id="male" value="male" name="user_age"><label for="male" class="light">Male</label><br>
+          <input type="radio" id="female" value="female" name="user_age"><label for="female" class="light">Female</label>
+		  <div>
+		  <p></p>
+		  </div>
+		  <label for="mobile">Mobile:</label>
+          <input type="text" id="name" name="mobile" maxlength="10">
+          
+		</fieldset>
+        
+        <fieldset>
+          <legend><span class="number">2</span>Events </legend>
+          <label>Interested Events:</label>
+          <input type="checkbox" id="appit" value="appit" name=""><label class="light" for="appit">APP It</label><br>
+            <input type="checkbox" id="codewars" value="codewars" name=""><label class="light" for="codewars">Code Wars</label><br>
+          <input type="checkbox" id="codeathon" value="codeathon" name=""><label class="light" for="codeathon">Code-a-thon</label><br>
+		  <input type="checkbox" id="treasurehunt" value="treasurehunt" name=""><label class="light" for="treasurehunt">Treasure Hunt</label><br>
+		  <input type="checkbox" id="ppt" value="ppt" name=""><label class="light" for="ppt">Paper Presentation</label>
+		  
+        
+        </fieldset>
+        <button type="submit" onclick="myFunction();">Register </button>
+      </form>
+      
+    </body>
+</html>
