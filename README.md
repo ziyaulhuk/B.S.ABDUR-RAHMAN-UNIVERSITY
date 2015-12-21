@@ -1,26 +1,30 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Creative](http://startbootstrap.com/template-overviews/creative/)
+DEVELOPED IN B.S.ABDUR RAHMAN UNIVERSITY---SYMPOSIUM MANAGEMENT SYSTEM
 
-[Creative](http://startbootstrap.com/template-overviews/creative/) is a one page creative theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
-## Getting Started
+INSTRUCTOR
+	Dr.N.SABIYATH FATHIMA
 
-To use this theme, choose one of the following options to get started:
-* Download the latest release on Start Bootstrap
-* Fork this repository on GitHub
+TEAM MEMBERS
 
-## Bugs and Issues
+	H.ZIYAUL HUK
+	120071601128
+	M.ABDUL MUHSIN 
+	120071602001
 
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-creative/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/creative/).
 
-## Creator
+SYMPOSIUM MANAGEMENT SYSTEM
 
-Start Bootstrap was created by and is maintained by **David Miller**, Managing Partner at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+1.	   Symposium Management System is an interface between the College Student and the Symposium organizers who conduct Symposium in their respective College or University.
+2.	       It aims at providing all possible information to the participants of the symposium.
+3.	      The information include date and time, venue, list of events, information regarding how to reach the venue and so on.
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+4.	   This system also provides online registration facility which in turn helps the organizers to preplan the event based on the number of participants.
 
-## Copyright and License
+5.	   If some other way of registration like registering through phone call or sms or email may requires the organizer to make manual entries somewhere else.
 
-Copyright 2013-2015 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-creative/blob/gh-pages/LICENSE) license.
+6.	   These manual entries may require more time and if the list is prepared in a handbook, the handbook must be kept safe and a person should be allocated to do the task.
+
+7.	   Xampp server suits the best for compiling and executing the php code. Phpmyadmin supports in the creation and maintenance of mysql database and tables.
+
+The project was developed as a part of the curriculum for the course IP lab(CS405).
